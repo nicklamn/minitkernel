@@ -13,6 +13,7 @@ Makefile:<br>
     boot.o: Compiles boot.s->boot.o.<br>
     kernel.o: Compiles kernel.c->kernel.o<br>
     clean: Deletes *.o, kernel.elf.<br>
+<br>
 Includes:<br>
     stddef.h: C stddef.h but minimal.<br>
     stdint.h: C stdint.h but minimal.<br>
