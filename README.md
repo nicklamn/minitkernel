@@ -12,9 +12,9 @@ Makefile:<br>
     all: Calls boot.o, then kernel.o, then links those into kernel.elf.<br>
     boot.o: Compiles boot.s->boot.o.<br>
     kernel.o: Compiles kernel.c->kernel.o<br>
-    clean: Deletes *.o, kernel.elf.
+    clean: Deletes *.o, kernel.elf.<br>
 Includes:<br>
-    stddef.h: C stddef.h but minimal
-    stdint.h: C stdint.h but minimal
-    string.g: C string.h but minimal
-    font8x8_basic.h: 8x8 VGA Font, basic characters.
+    stddef.h: C stddef.h but minimal.<br>
+    stdint.h: C stdint.h but minimal.<br>
+    string.g: C string.h but minimal.<br>
+    font8x8_basic.h: 8x8 VGA Font, basic characters.<br>
