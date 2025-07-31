@@ -545,7 +545,7 @@ void kernel_main() {
         mouse_poll();
 
         uint64_t now = rdtsc();
-        if ((now - last_render_time) >= ticks_per_ms * 17) {
+        if ((now - last_render_time) >= ticks_per_ms * 16) {
             last_render_time = now;
 
             draw_box(0, 0, 320, 200, 0x38);
