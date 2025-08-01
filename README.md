@@ -21,9 +21,9 @@ Includes:<br>
     font8x8_basic.h: 8x8 VGA Font, basic characters.<br>
 
 
-This would be impossible without:
-    https://www.gnu.org/software/grub/ - GNU GRUB, the best bootloader.
-    https://gcc.gnu.org/ - GNU GCC, the C compiler.
-    https://www.gnu.org/software/binutils/ - GNU Binutils, forgot what these do but we need them.
-    https://archlinux.org/ - The simplest, lightest distro out there, with it's large AUR.
-    https://www.apple.com/os/macos/ - A better alternative to Linux, smoother, and nicer to look at.
+This would be impossible without:<br>
+    https://www.gnu.org/software/grub/ - GNU GRUB, the best bootloader.<br>
+    https://gcc.gnu.org/ - GNU GCC, the C compiler.<br>
+    https://www.gnu.org/software/binutils/ - GNU Binutils, forgot what these do but we need them.<br>
+    https://archlinux.org/ - The simplest, lightest distro out there, with it's large AUR.<br>
+    https://www.apple.com/os/macos/ - A better alternative to Linux, smoother, and nicer to look at.<br>
