@@ -1,12 +1,12 @@
 # Makefile
-# Best compatibility with Arch Linux, and the AUR packages: i386-elf-gcc i386-elf-binutils installed.
-# This needs to be changed on macOS.
+# Best compatibility with Arch Linux, NEEDS the AUR package: i386-elf-gcc installed.
+# This NEEDS to be changed on macOS, to i686-elf-*, and the Brew package: i686-elf-gcc.
 AS            = i386-elf-as
 CC            = i386-elf-gcc
 LD            = i386-elf-ld
 MKDIR         = mkdir -p
 
-# Same for macOS and Linux
+# Same for macOS and Linux (maybe x3)
 ASFLAGS       = --32
 CFLAGS        = -m32 -march=i386 -ffreestanding -O2 -Wall -Wextra -msoft-float -fno-stack-protector -nostdinc -fno-pie -fno-omit-frame-pointer -I./include/
 LDFLAGS       = -m32 -m elf_i386 -T linker.ld -nostdlib
