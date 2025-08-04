@@ -539,7 +539,6 @@ void kernel_main() {
     while (1) {
         char c = keyboard_poll();
         if (c) {
-            
         }
 
         mouse_poll();
@@ -550,10 +549,10 @@ void kernel_main() {
 
             draw_box(0, 0, 320, 200, 0x38);
             draw_box(0, 0, 320, 12, 0x3F);
-            draw_string("minitkernel 0.0.2   ABC   Hello, World!", 4, 3, 0x00);
+            draw_string("minitkernel       ABC     Hello, World!", 4, 3, 0x00);
             draw_box(0, 188, 320, 200, 0x3F);
-            draw_string("0.0.2                              test", 4, 190, 0x00);
-            
+            draw_string("0.0.2             123              test", 4, 190, 0x00);
+
             if (boxi >= 20) {
                 direction = -1;
             } else if (boxi <= -20) {
