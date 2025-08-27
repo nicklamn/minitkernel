@@ -17,7 +17,7 @@ Makefile:<br>
 Includes:<br>
     stddef.h: C stddef.h but minimal.<br>
     stdint.h: C stdint.h but minimal.<br>
-    string.g: C string.h but minimal.<br>
+    string.h: C string.h but minimal.<br>
     font8x8_basic.h: 8x8 VGA Font, basic characters.<br>
 
 
